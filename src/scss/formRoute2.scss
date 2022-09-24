@@ -1,0 +1,49 @@
+.form-router2 {
+	display: flex;
+	max-width: 1490px;	
+	padding: 39px 45px 49px;
+	.select-grup {
+		display: flex;
+		justify-content: space-between;
+	}
+	label {
+		display: block;
+		color: #FFF;
+		font-size: 30px;
+		padding: 0px 0 15px 6px;
+	}
+	.select-router {
+		width: 325px;
+		height: 60px;
+		border-radius: 3px;				
+	}	
+}
+
+.form-data__container {
+	margin: 0 0 0 35px;
+}
+.select-input1 {
+	margin: 0 35px 0 0;
+}
+
+.cashed {
+	align-self: center;
+	margin: 0 5px;
+}
+.button2 {
+	width: 323px;
+	margin: 0 44px 0 auto;
+	padding: 0 0 0 0;
+}
+.button-router2 {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding: 17px 68px;
+	background-color: #FFA800;
+	color: #292929;
+	font-weight: 700;
+	border-radius: 5px;
+}

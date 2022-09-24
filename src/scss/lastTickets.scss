@@ -1,0 +1,73 @@
+.last_ticket_container {
+   padding:0px 0px 17px 0px;
+}
+.last_ticket {
+   width: 360px;
+   height: 161px;
+   background: #FFFFFF;
+   border: 1px solid #C4C4C4;
+   box-shadow: 0px 2px 2px rgba(62, 60, 65, 0.25);
+}
+.last_ticket_inside {
+display: flex;
+justify-content: space-between;
+box-sizing: content-box;
+align-items: flex-end;
+}
+.last_ticket_inside {
+   margin: 18px 21px 34px 18px;
+}
+.railway_station_transparent {
+   font-size: 16px;
+   line-height: 112%;
+   color: #928F94;
+   text-align: right;
+}
+.railway_station_transparent_left {
+   font-size: 16px;
+   line-height: 112%;
+   color: #928F94;
+}
+.last_ticket_city {
+   color: #292929;
+   font-size: 20px;
+   line-height: 117%;
+   text-align: right;
+}
+.last_ticket_city_left {
+   color: #292929;
+   font-size: 20px;
+   line-height: 117%;
+}
+.last_ticket_footer {
+   display: flex;
+   align-items: flex-end;
+	width: 136px;
+}
+.choice_seat_start {
+   font-size: 16px;
+   color: #928F94;
+   
+
+}
+.item_services { 
+   width: 92px;
+	height: 20px;
+	img {
+		max-width: 100%;
+	}
+}
+.last_ticket_price {
+   font-size: 36px;
+   font-weight: 700;
+   color: #FFA800;
+	margin: 0 5px;
+}
+.price {
+	font-family: 'PT Sans', serif;
+   color: #928F94;
+   font-family: 'PT Sans', serif;
+   font-size: 30px;
+   
+}
+

@@ -1,0 +1,167 @@
+.footer__top {
+	background: #2D2B2F;
+	padding: 40px 0 0 0;
+ }
+ 
+ .footer__main {
+	display: flex;
+	justify-content: space-between;
+ }
+ 
+ .footer__row {
+	display: flex;
+ }
+ 
+ ._container {
+	max-width: 1230px;
+	min-height: 30px;
+	margin: 17px auto 26px;
+	box-sizing: content-box;
+ }
+ 
+ .footer__column {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 1 50%;
+ }
+ 
+ .footer__label {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 30px;
+	margin: 0px 0px 33px 0px;
+	
+ }
+ 
+ .contacts-footer {
+	display: flex;
+	flex-direction: column;
+ }
+ 
+ .contacts-footer__item {
+	padding: 0px 0px 27px 36px;
+	line-height: 117%;
+	display: flex;
+	align-items: center;
+	color: #ffffff;
+	font-size: 24px;
+	min-height: 27px;
+ }
+ 
+ .contacts-footer__item:not(:last-child) {
+	margin: 0px 0px 9px 0px;
+ }
+ 
+ .contacts-footer__item:hover {
+	text-decoration: underline;
+ }
+ 
+ .contacts-footer__item_phone {
+	 background: url('../img/icons/1.svg') 0 0 no-repeat;
+ }
+ 
+ .contacts-footer__item_email {
+	background: url('../img/icons/2.svg') 0 0 no-repeat;
+ }
+ 
+ .contacts-footer__item_skype {
+	background: url('../img/icons/3.svg') 0 0 no-repeat;
+ }
+ 
+ .contacts-footer__item_map {
+	background: url('../img/icons/4.svg') 0 no-repeat;
+ }
+ 
+ .subscribe__body {
+	margin: 0px 0px 0px 20px;
+ }
+ 
+ .subscribe__title__mini {
+	font-size: 24px;
+	color: #E5E5E5;
+	line-height: 117%;
+	font-weight: 400;
+ }
+ 
+ .subscribe__title {
+	font-size: 30px;
+	line-height: 116%;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin: 44px 0px 21px 0px;
+ }
+ 
+ .subscribe__form {
+	flex: 0 1 50%;
+	padding: 10px 0px 4px 0px;
+	display: flex;
+ }
+ 
+ .subscribe__input {
+	flex: 1 1 auto;
+	min-width: 447px;
+	min-height: 60px;
+	background: #FFFFFF;
+	border-radius: 3px;
+	padding: 17px 150px 17px 21px;
+	font-size: 24px;
+ }
+ 
+ .subscribe__button {
+	border: 1px solid #FFFFFF;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 116%;
+	background-color: #2D2B2F;
+	min-height: 60px;
+	min-width: 169px;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 0px 33px;
+ }
+ 
+ .social {
+	display: flex;
+	align-items: center;
+ }
+ 
+ .social__item:not(last-child) {
+	margin: 0px 48px 0px 0px;
+ }
+ 
+ .footer_line {
+	border: 1px solid #E5E5E5;
+ }
+ 
+ .footer__container {
+	max-width: 1410px;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+ 
+ .footer__logo {
+	font-size: 36px;
+	line-height: 117%;
+	color: #E5E5E5;
+ }
+ 
+ .footer_vector {
+	background: #E5E5E5;
+	background: url('../img/fly.svg') 0 0 no-repeat;
+	width: 36px;
+	height: 36px;
+ }
+ 
+ .footer_years {
+	font-size: 24px;
+	line-height: 116%;
+	color: #E5E5E5;
+ }
+ .footer .header__logo {
+	padding: 0;
+ }
+ 

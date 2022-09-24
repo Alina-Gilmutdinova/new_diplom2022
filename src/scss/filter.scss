@@ -1,0 +1,68 @@
+.filter__body {
+	padding: 37px 32px;
+	border-bottom: 1px solid #fff;
+	
+}
+.filter__title {
+	color: #fff;
+	font-weight: 400;
+	font-size: 30px;
+}
+.filter__range {
+	margin: -2px 2px;
+	
+}
+.filter__range.noUi-horizontal .noUi-handle {
+	border-radius: 50%;
+	width: 24px;
+	height: 24px;
+	background-color: #fff;
+}
+.filter__range.noUi-horizontal .noUi-handle::before,
+.filter__range.noUi-horizontal .noUi-handle::after {
+	display: none;
+}
+.filter__range.noUi-target {
+	background-color: #3E3C41;
+   border-radius: 4px;
+   border: 1px solid #C4C4C4;
+	border-radius: 8px;	
+   box-shadow: none;
+}
+.filter__range .noUi-connect{
+	background-color: #FFA800;
+	height: 21px;
+}
+.filter__range.noUi-horizontal {
+	height: 19px;
+}
+.filter__range .noUi-connects {
+	display: flex;
+	align-items: center;
+}
+.filter__range.noUi-horizontal .noUi-handle {
+	top: -4px;
+}
+.filter__range.noUi-horizontal .noUi-tooltip {
+	bottom: -30px;
+	
+}
+.filter__range .noUi-tooltip {
+	color: #E5E5E5;
+	font-weight: 400;
+	font-size: 16px;
+	border: none;
+	background: none;
+	
+}
+.fromTo, .fromToNumb {
+	display: flex;
+	justify-content: space-between;
+	margin: 10px 0;
+	span {
+		display: inline-block;
+		color: #fff;
+		font-weight: 400;
+		font-size: 18px;
+	}
+}

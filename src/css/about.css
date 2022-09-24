@@ -1,0 +1,37 @@
+.about {
+  background-color: #E5E5E5;
+}
+
+.about .about-container {
+  max-width: 1400px;
+  color: #292929;
+  margin: 0 auto;
+  padding: 144px 0 120px 0;
+}
+
+.titleh2 {
+  font-weight: 500;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 33px;
+  border-left: 9px solid #FFA800;
+}
+
+.about__text p {
+  max-width: 1180px;
+  margin: 0 0 30px 19px;
+  line-height: 28.13px;
+}
+
+.about__text p:last-child {
+  margin-bottom: 0px;
+}
+
+.about__text span {
+  font-weight: 700;
+}

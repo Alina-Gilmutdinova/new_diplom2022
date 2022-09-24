@@ -1,0 +1,40 @@
+.block-spoiler {
+	margin: 50px auto;
+	padding: 30px;
+}
+
+.block-spoiler__item {
+	margin: 0 0 20px 0;
+}
+
+
+.block-spoiler__title {
+	color: #fff;
+	position: relative;
+	font-weight: 700;
+	font-size: 30px;
+	padding: 0 0 0 30px;
+	cursor: pointer;
+}
+
+
+.block-spoiler__text {
+	display: none;
+	padding: 10px 0 0 0;
+	color: #fff;
+}
+.block-spoiler__text.active {
+	display: block;
+}
+
+.block-spoiler__title.active::before,
+.block-spoiler__title.active::after {
+	background-color: rgb(208, 211, 13);
+}
+.block-spoiler__title.active::before {
+	transform: rotate(-40deg);
+}
+
+.block-spoiler__title.active::after {
+	transform: rotate(40deg);
+}

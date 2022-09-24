@@ -1,0 +1,70 @@
+.arrow {
+	overflow: hidden;
+	display: flex;
+ }
+ .arrow_main {
+	height: 98px;
+	background-color: #3E3C41;
+	position: relative;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 22px 36px;
+ }
+.elipse {
+	display: inline-flex;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	justify-content: center;
+	align-items: center;
+	margin: 0 22px 0 0;
+}
+
+ .arrow_main:before {
+	content: '';
+	width: 50px;
+	height: 80px;
+	-webkit-transform: rotate(-37deg);
+			  transform: rotate(-37deg);
+	top: -23px;
+	right: -30px;
+	background: #3E3C41;
+	position: absolute;
+	border: 1px solid #fff;
+ }
+ .arrow_main:after {
+	content: '';
+	width: 50px;
+	height: 80px;
+	-webkit-transform: rotate(37deg);
+			  transform: rotate(37deg);
+	bottom: -23px;
+	right: -30px;
+	background: #3E3C41;
+	position: absolute;
+	border: 1px solid #fff;
+ } 
+ .arrow_active {
+	background-color: #FFA800;
+	flex: 0 0 32%;
+	&::after,
+	&::before {
+		border: 1px solid #FFA800;	
+	}
+ }
+ .arrow_main1 {
+	padding-left: 230px;
+ }
+ 
+ .arrow-second {
+	flex: 0 0 19%;
+ }
+ .arrow-last {
+	flex: 0 0 30%;
+	&::after,
+ 	&::before {
+		border: 1px solid #3E3C41;	
+ 	}
+ }

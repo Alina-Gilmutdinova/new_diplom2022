@@ -1,0 +1,16 @@
+.header1 {
+  min-height: 300px;
+  background: url("../img/header1-background.png") 0 0/cover no-repeat;
+}
+
+.header1 .header__container2 {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header__content2 {
+  background: rgba(41, 41, 41, 0.8);
+  max-width: 1490px;
+  margin: 223px auto 0;
+  padding-bottom: 77px;
+}

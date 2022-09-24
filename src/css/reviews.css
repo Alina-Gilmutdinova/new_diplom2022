@@ -1,0 +1,67 @@
+.reviews {
+  padding: 157px 0 109px;
+  background-color: #E5E5E5;
+}
+
+.reviews .reviews__container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.reviews .reviews__container .reviews__title {
+  padding: 0 0 71px 0;
+}
+
+.swiper.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+  margin: 117px 0 0 0;
+  position: relative;
+}
+
+.swiper.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-bullets.swiper-pagination-horizontal .swiper-pagination-bullet, .swiper-pagination-custom .swiper-pagination-bullet, .swiper-pagination-fraction .swiper-pagination-bullet {
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 19px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 19px));
+  margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 7px);
+  background-color: #C4C4C4;
+}
+
+.slide-content {
+  display: flex;
+}
+
+.user-content {
+  align-self: center;
+  padding: 0 76px 0 0;
+}
+
+.user-image {
+  width: 207px;
+  height: 207px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 30px 0;
+}
+
+.user-photo {
+  border-radius: 50%;
+  width: 207px;
+  height: 207px;
+}
+
+.author {
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 0 30px 16px;
+}
+
+.user-testimonial {
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 300;
+  color: #928F94;
+  padding: 0 0 30px 0;
+}
